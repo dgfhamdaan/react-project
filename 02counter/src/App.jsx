@@ -11,8 +11,8 @@ function App() {
   const addVAlue = () => {
     // counter = counter + 1;
     setcounter(counter + 1);
-    if (counter >= 20) {
-      console.log(setcounter(20));
+    if (counter >= 30) {
+      console.log(setcounter(30));
     }
   }
   
