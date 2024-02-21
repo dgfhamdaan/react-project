@@ -10,7 +10,10 @@ function App() {
   
   const addVAlue = () => {
     // counter = counter + 1;
-    setcounter(counter + 1);
+    setcounter(prevCounter => prevCounter + 1); // it use to prev state in setcounter update
+    setcounter(prevCounter => prevCounter + 1);
+    setcounter(prevCounter => prevCounter + 1);
+    setcounter(prevCounter => prevCounter + 1);
     if (counter >= 30) {
       console.log(setcounter(30));
     }
