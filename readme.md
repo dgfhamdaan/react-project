@@ -1,1 +1,1 @@
-#this is a react course
+#this is a react project
